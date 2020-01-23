@@ -1,6 +1,12 @@
 # Salesforce-Deployment-Manager
 A native Salesforce package to help track deployments
 
+## Org Setup
+Run the script scripts/shell/org_setup.sh
+
+
+### Below is the boilerplate SFDX README.md
+
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
 
 ## Part 1: Choosing a Development Model
