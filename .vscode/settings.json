@@ -3,5 +3,6 @@
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.sfdx": true
-  }
+  },
+  "eslint.nodePath": "/Users/nate/.vscode/extensions/salesforce.salesforcedx-vscode-lwc-47.15.0/node_modules"
 }
