@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MetadataType__c</fullName>
+    <description>Let&#39;s use a picklist for now until we run into needs/problems where we have to scale.  Hesitant to use a global picklist yet.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Let&#39;s use a picklist for now until we run into needs/problems where we have to scale.  Hesitant to use a global picklist yet.</inlineHelpText>
+    <label>Metadata Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ApexClass</fullName>
+                <default>false</default>
+                <label>ApexClass</label>
+            </value>
+            <value>
+                <fullName>ApexComponent</fullName>
+                <default>false</default>
+                <label>ApexComponent</label>
+            </value>
+            <value>
+                <fullName>ApexPage</fullName>
+                <default>false</default>
+                <label>ApexPage</label>
+            </value>
+            <value>
+                <fullName>ApexTrigger</fullName>
+                <default>false</default>
+                <label>ApexTrigger</label>
+            </value>
+            <value>
+                <fullName>AuraComponentBundle</fullName>
+                <default>false</default>
+                <label>AuraComponentBundle</label>
+            </value>
+            <value>
+                <fullName>CustomField</fullName>
+                <default>false</default>
+                <label>CustomField</label>
+            </value>
+            <value>
+                <fullName>CustomObject</fullName>
+                <default>false</default>
+                <label>CustomObject</label>
+            </value>
+            <value>
+                <fullName>StaticResource</fullName>
+                <default>false</default>
+                <label>StaticResource</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DestinationEnvironment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The environment to which the deployment is destined.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The environment to which the deployment is destined.</inlineHelpText>
+    <label>Destination Environment</label>
+    <referenceTo>Environment__c</referenceTo>
+    <relationshipLabel>Deployments (Destination)</relationshipLabel>
+    <relationshipName>Deployments_Destination</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

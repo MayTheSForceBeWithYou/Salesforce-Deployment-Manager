@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreDeploymentSteps__c</fullName>
+    <description>Let&#39;s make this a rich-text field first.  The fact that these need to be ordered will make them fun.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Let&#39;s make this a rich-text field first.  The fact that these need to be ordered will make them fun.</inlineHelpText>
+    <label>Pre-deployment Steps</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>
