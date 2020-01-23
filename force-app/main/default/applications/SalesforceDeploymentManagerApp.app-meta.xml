@@ -12,10 +12,10 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>Deployment__c</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Dashboard</tabs>
     <tabs>Environment__c</tabs>
     <tabs>MetadataItem__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Salesforce_Deployment_Manager_UtilityBar</utilityBar>
 </CustomApplication>
