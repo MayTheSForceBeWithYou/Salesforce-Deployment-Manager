@@ -39,6 +39,7 @@ for (String strMetadataType : strMetadataTypes) {
         for (SObject sObj : metadataResults) {
             String recordName = (String)sObj.get(nameField);
             System.debug(nameField + ': ' + sObj.get(nameField));
+            
             MetadataItem__c metaItem = new MetadataItem__c(
                 Name=recordName,
                 MetadataType__c=strMetadataType
@@ -61,3 +62,5 @@ for (String strMetadataType : strMetadataTypes) {
     //  FIGURE IT OUT
     
 }
+
+insert metaItemsToInsert;
