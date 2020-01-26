@@ -12,13 +12,14 @@ public with sharing class GeneratePackageAura {
             WHERE Deployment__c = :deploymentId
         ];
         
+        Blob thaBlob = packageXmlBlobFromMetadataItems(deplMetaItems);
         
     }
     
     public static Blob packageXmlBlobFromMetadataItems(List<DeploymentMetadataItem__c> dmis) {
         // Build envelope
         XmlStreamWriter xsw = new XmlStreamWriter();
-        xsw.writeStartDocument('prefix', 'localname', 'namespaceUri');
+        xsw.writeStartDocument('UTF-8', '1.0');
         xsw.writeEndDocument();
         System.debug(xsw.getXmlString());
     }
