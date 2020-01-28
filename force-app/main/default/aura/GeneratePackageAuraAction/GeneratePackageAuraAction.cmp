@@ -1,4 +1,4 @@
-<aura:component controller="GeneratePackageAura">
+<aura:component controller="GeneratePackageAura" implements="force:hasRecordId,force:lightningQuickAction">
     <aura:handler name="init" value="{!this}" action="{!c.initToWinIt}" />
     
 </aura:component>	
