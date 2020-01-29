@@ -33,9 +33,9 @@
                 <label>ApexTrigger</label>
             </value>
             <value>
-                <fullName>AuraComponentBundle</fullName>
+                <fullName>AuraDefinitionBundle</fullName>
                 <default>false</default>
-                <label>AuraComponentBundle</label>
+                <label>AuraDefinitionBundle</label>
             </value>
             <value>
                 <fullName>CustomField</fullName>
