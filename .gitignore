@@ -6,6 +6,9 @@
 .sfdx/
 .localdevserver/
 
+# VS Code Settings
+.vscode/
+
 # Logs
 logs
 *.log
